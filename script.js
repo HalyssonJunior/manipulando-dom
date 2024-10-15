@@ -15,7 +15,7 @@ changeTitleBtn.addEventListener("click", function () {
 });
 
 btnChangeAll.addEventListener("click", function () {
-    const frase = document.querySelectorAll(".mensagem2");
+    const frase = document.getElementsByClassName("mensagem2");
 
     for (let i = 0; i < frase.length; i++) {
         frase[i].textContent = `${i+1}º frase alterada`;
